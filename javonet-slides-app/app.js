@@ -85,7 +85,7 @@ app.get('/', (req, res) => {
               slides[i].play();
               slides[i].onended = changeSlide;
             } else {
-              setTimeout(changeSlide, 3000);  // Change slide every 3 seconds
+              setTimeout(changeSlide, 5000);  // Change slide every 3 seconds
             }
           }
   
@@ -93,7 +93,7 @@ app.get('/', (req, res) => {
             slides[i].play();
             slides[i].onended = changeSlide;
           } else {
-            setTimeout(changeSlide, 3000);  // Change slide every 3 seconds
+            setTimeout(changeSlide, 5000);  // Change slide every 3 seconds
           }
         </script>
       `;
